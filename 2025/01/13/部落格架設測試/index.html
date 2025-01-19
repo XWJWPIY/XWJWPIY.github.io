@@ -87,7 +87,7 @@
 <meta property="og:description" content="測試發文，大成功！！ 這是我的第一篇發佈公開的文章，也是首次開創出屬於自己部落格。使用的是 Hexo 與 github 的組合技完成整個網站的架設。 本文為測試發文~">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2025-01-13T14:49:05.000Z">
-<meta property="article:modified_time" content="2025-01-15T14:03:33.224Z">
+<meta property="article:modified_time" content="2025-01-19T07:50:03.344Z">
 <meta property="article:author" content="詳詳 XWJWPIY">
 <meta property="article:tag" content="部落格架設">
 <meta name="twitter:card" content="summary">
@@ -106,7 +106,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: '博主'
+      author: '作者'
     },
     algolia: {
       applicationID: '',
@@ -184,7 +184,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首頁
           </a>
@@ -192,9 +192,9 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
+          <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
             關於
           </a>
@@ -202,9 +202,9 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
+          <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             標籤
           </a>
@@ -212,9 +212,9 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
+          <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             歸檔
           </a>
@@ -304,6 +304,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">文章字數&#58;</span>
+                
+                <span title="文章字數">
+                  62
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">閱讀時間(分鐘) &asymp;</span>
+                
+                <span title="閱讀時間(分鐘)">
+                  1
+                </span>
+              
+            </div>
+          
 
           
 
@@ -338,16 +369,16 @@
       <div>
         <ul class="post-copyright">
   <li class="post-copyright-author">
-    <strong>Post author：</strong>
+    <strong>文章作者：</strong>
     詳詳 XWJWPIY
   </li>
   <li class="post-copyright-link">
-    <strong>Post link：</strong>
+    <strong>文章連結：</strong>
     <a href="https://xwjwpiy.github.io/2025/01/13/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%9E%B6%E8%A8%AD%E6%B8%AC%E8%A9%A6/" title="部落格架設測試">https://xwjwpiy.github.io/2025/01/13/%E9%83%A8%E8%90%BD%E6%A0%BC%E6%9E%B6%E8%A8%AD%E6%B8%AC%E8%A9%A6/</a>
   </li>
   <li class="post-copyright-license">
-    <strong>Copyright Notice： </strong>
-    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+    <strong>版權聲明： </strong>
+    除非有特別聲明的文章外，所有本部落格的文章均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 許可協議。轉載請註明出處！
   </li>
 </ul>
 
@@ -449,7 +480,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives">
+                <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">文章</span>
@@ -474,6 +505,16 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/xwjwpiy" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -507,6 +548,15 @@
   </span>
   <span class="author" itemprop="copyrightHolder">詳詳 XWJWPIY</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">3.1k</span>
   
 </div>
 
